@@ -1,0 +1,8 @@
+.hov :hover{
+    transform: scale(1.02);
+    transition: .5s;
+    
+}
+.card{
+    position:static;
+}

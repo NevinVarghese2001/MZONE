@@ -1,0 +1,227 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "MacBook Air M2",
+      "Brand": "Apple",
+      "Discription": "Get more done faster with the next-generation Apple M2 chip — and go all day and into the night with up to 18 hours of battery life |All-new strikingly thin design so you can work, play or create just about anything — anywhere |34.46 cm (13.6-inch) Liquid Retina display with 500 nits of brightness makes text and images look brilliant, with vivid detail",
+      "categoryId": 1,
+      "price": 119900,
+      "rating": 4.7,
+      "warranty": 2,
+      "productImg": "https://i.postimg.cc/TYqtRR4P/mac-card-40-macbook-air-202206.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "MacBook Air M1",
+      "Brand": "Apple",
+      "Discription": "Apple M1 chip delivers powerful CPU, GPU and machine learning performance | Up to 18 hours of battery life so you can go longer than ever |Retina display with vibrant colours and incredible detail |Superfast SSD storage opens apps and files in an instan |Fanless design for silent operation",
+      "categoryId": 1,
+      "price": 99900,
+      "rating": 4.8,
+      "warranty": 2,
+      "productImg": "https://i.postimg.cc/qvtq07mf/mac-card-40-macbook-air-202110.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "iMac 24-inch",
+      "Brand": "Apple",
+      "Discription": "Apple M1 chip delivers powerful CPU, GPU and machine learning performance | Immersive 4.5K Retina display |Strikingly thin 11.5mm design in seven vibrant colours | 1080p FaceTime HD camera, high-fidelity six-speaker sound system and studio-quality mic array |Colour-matched Magic Mouse and Magic Keyboard",
+      "categoryId": 1,
+      "price": 129900,
+      "rating": 4.5,
+      "warranty": 2,
+      "productImg": "https://i.postimg.cc/6q0kDdsr/mac-card-40-imac-24-202108.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "Mac Pro",
+      "Brand": "Apple",
+      "Discription": "Intel Xeon W processor configurable up to 28 cores | Radeon Pro W5500X MPX Module, configurable with up to two Radeon Pro W6800X Duo MPX Modules |12 DIMM slots, configurable up to 1.5TB of memory |512GB SSD configurable up to 8TB |Available in tower and rack configurations",
+      "categoryId": 1,
+      "price": 499900,
+      "rating": 4.8,
+      "warranty": 2,
+      "productImg": "https://i.postimg.cc/V6fs59qh/mac-card-40-mac-pro-202108.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "iPhone 14 Pro Max",
+      "Brand": "Apple",
+      "Discription": "Dynamic Island, a magical new way to interact with iPhone| 48MP Main camera with an advanced quad-pixel sensor for up to 4x the resolu |1 TB ROM |Brighter 17.00 cm (6.7-inch) Super Retina XDR Display|A16 Bionic Chip, 6 Core Processor",
+      "categoryId": 2,
+      "price": 139900,
+      "rating": 4.7,
+      "warranty": 1,
+      "productImg": "https://i.postimg.cc/4xMPPwLD/iphone-card-40-iphone14pro-202209.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "iPhone 14 Pro",
+      "Brand": "Apple",
+      "Discription": "Dynamic Island, a magical new way to interact with iPhone |1 TB ROM |15.49 cm (6.1 inch) Super Retina XDR Display |48MP + 12MP + 12MP | 12MP Front Camer |A16 Bionic Chip, 6 Core Processor",
+      "categoryId": 2,
+      "price": 129900,
+      "rating": 4.8,
+      "warranty": 1,
+      "productImg": "https://i.postimg.cc/4xMPPwLD/iphone-card-40-iphone14pro-202209.jpg"
+    },
+    {
+      "id": "7",
+      "productName": "iPhone 14 Plus",
+      "brand": "Apple",
+      "Discription": "6.7-inch durable design with Ceramic Shield . Plus water and dust resistance | iPhone 14 Plus has the longest battery life of any iPhone ever | A15 Bionic, the same super-speedy chip that’s in iPhone 13 Pro   ",
+      "categoryId": "2",
+      "price": "89900",
+      "rating": "4.5",
+      "warranty": "2",
+      "productImg": "https://i.postimg.cc/90yz66j5/iphone-card-40-iphone14-202209.jpg"
+    },
+    {
+      "id": "8",
+      "productName": "iPhone 14",
+      "brand": "Apple",
+      "Discription": "6.1-inch durable design with Ceramic Shield. Plus water and dust resistance | ",
+      "categoryId": "2",
+      "price": "79900",
+      "rating": "4.6",
+      "warranty": "2",
+      "productImg": "https://i.postimg.cc/90yz66j5/iphone-card-40-iphone14-202209.jpg"
+    },
+    {
+      "id": "9",
+      "productName": "iPad Pro 12.9-inch",
+      "brand": "Apple",
+      "Discription": "The Apple M2 chip powers a massive leap in performance for pro workflows and all-day battery life | 32.77 cm (12.9-inch) Liquid Retina display footnote  with ProMotion, True Tone and P3 wide colour | Compatible with Apple Pencil (2nd generation), Magic Keyboard and Smart Keyboard Folio ",
+      "categoryId": "3",
+      "price": "112900",
+      "rating": "4.6",
+      "warranty": "2",
+      "productImg": "https://i.postimg.cc/Sxg5LjY3/ipad-card-40-pro-202210.jpg",
+      "Brand": "Apple"
+    },
+    {
+      "id": "10",
+      "productName": "iPad Air",
+      "brand": "Apple",
+      "Discription": "Apple M1 chip powers next-level performance and all-day battery life | 27.69 cm (10.9-inch) Liquid Retina display | 12MP Ultra Wide front camera | super-fast Wi-Fi with Wi-Fi 6",
+      "categoryId": "3",
+      "price": "59900",
+      "rating": "4.2",
+      "warranty": "2",
+      "productImg": "https://i.postimg.cc/mkcMnXm7/ipad-card-40-air-202203.jpg"
+    },
+    {
+      "id": "11",
+      "productName": "iPad Mini",
+      "brand": "Apple",
+      "Discription": "Stunning 21.08 cm (8.3-inch) Liquid Retina display | A15 Bionic chip for incredible performance and all-day battery life | 12MP Ultra Wide front camera | Touch ID built into the top button for secure authentication",
+      "categoryId": "3",
+      "price": "49900",
+      "rating": "4.3",
+      "warranty": "2",
+      "productImg": "https://i.postimg.cc/5tR8mW3f/ipad-card-40-ipad-mini-202109.jpg"
+    },
+    {
+      "id": "12",
+      "productName": "iPad (10th generation)",
+      "brand": "Apple",
+      "Discription": "All-screen design with 27.7 cm (10.9-inch) Liquid Retina display | 12MP Ultra Wide front camera | The A14 Bionic chip lets you run multiple apps and work smoothly between them | Compatible with Apple Pencil (1st generation)",
+      "categoryId": "3",
+      "price": "44900",
+      "rating": "4.3",
+      "warranty": "2",
+      "productImg": "https://i.postimg.cc/ht7nG95M/ipad-card-40-ipad-202210.jpg"
+    },
+    {
+      "id": "13",
+      "productName": "Apple Watch Ultra",
+      "brand": "Apple",
+      "Discription": "The ultra-tough 49mm titanium case with Action button strikes a balance with weight, ruggedness and corrosion resistance | Always-On Retina display | Up to 36 hours of battery life, and up to 60 hours on low power settings | Pair with three specialised straps  ",
+      "categoryId": "4",
+      "price": "89900",
+      "rating": "4.5",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/CxmwXF9p/watch-card-40-ultra-202209-GEO-IN.png"
+    },
+    {
+      "id": "14",
+      "productName": "Apple Watch Series 8",
+      "brand": "Apple",
+      "Discription": "Bright Always-On Retina display with an expansive edge-to-edge design | Temperature sensing provides retrospective ovulation estimates and advanced Cycle Tracking features | Take an ECG to check for AFib — anytime, anywhere | Innovative safety features including Fall Detection, Emergency SOS and Crash Detection  ",
+      "categoryId": "4",
+      "price": "45900",
+      "rating": "4.3",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/C5GgNYbt/watch-card-40-s8-202303-GEO-IN.jpg",
+      "Brand": "Apple"
+    },
+    {
+      "id": "15",
+      "productName": "Apple Watch SE",
+      "brand": "Apple",
+      "Discription": "20% faster than Apple Watch SE (1st generation) with the S8 SiP | features including Fall Detection, Emergency SOS and Crash Detection | Track your sleep stages with the Sleep app, and check your heart rate anytime | Send messages, make calls and listen to music from your wrist ",
+      "categoryId": "4",
+      "price": "29900",
+      "rating": "4.6",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/2jhrmdgw/watch-card-40-se-202303-GEO-IN.png"
+    },
+    {
+      "id": "16",
+      "productName": "Apple Watch Series 7",
+      "brand": "Apple",
+      "Discription": "Always-on Retina display has nearly 20% more screen area than Series 6, making everything easier to see and use | Take an ECG anytime, anywhere |  The most crack-resistant front crystal yet on an Apple Watch, IP6X dust resistance and swimproof design | Track your daily activity on Apple Watch and see your trends in the Fitness app on iPhone",
+      "categoryId": "4",
+      "price": "63,999",
+      "rating": "4.0",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/vTPSsZFC/71-i7pbrhn-L-SX679.jpg"
+    },
+    {
+      "id": "17",
+      "productName": "Airpods max",
+      "brand": "Apple",
+      "Discription": "Up to 20 hours of listening time with a single charge | Active Noise Cancellation and Transparency mode | Personalised Spatial Audio with dynamic head tracking | Smart Case ",
+      "categoryId": "5",
+      "price": "59900",
+      "rating": "4.6",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/gJqsHkg1/hero-gnfk5g59t0qe-large.png"
+    },
+    {
+      "id": "18",
+      "productName": "Airpods 2nd generation",
+      "brand": "Apple",
+      "Discription": "Up to 5 hours of listening time with a single charge | Lightning Charging Case | ",
+      "categoryId": "5",
+      "price": "14900",
+      "rating": "4.7",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/Wzz9pc7K/710rz-W2-RGc-L-SL1500-2.jpg"
+    },
+    {
+      "id": "19",
+      "productName": "Airpods 3rd generation",
+      "brand": "Apple",
+      "Discription": "Up to 6 hours of listening time with a single charge | Lightning Charging Case or MagSafe Charging Case | Sweat and water resistant | Personalised Spatial Audio with dynamic head tracking ",
+      "categoryId": "5",
+      "price": "19900",
+      "rating": "4.5",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/gJXD1HkF/c9fa6dfb1629a0bea9459d868e73b273.png"
+    },
+    {
+      "id": "20",
+      "productName": "Airpods Pro 2nd generation",
+      "brand": "Apple",
+      "Discription": "Up to 6 hours of listening time with a single charge | Active Noise Cancellation and Adaptive Transparency | MagSafe Charging Case with speaker and lanyard loop | Sweat and water resistant | Personalised Spatial Audio with dynamic head tracking ",
+      "categoryId": "5",
+      "price": "26900",
+      "rating": "4.7",
+      "warranty": "1",
+      "productImg": "https://i.postimg.cc/cJKkNSXb/OIP-2.jpg"
+    }
+    
+  ]
+}

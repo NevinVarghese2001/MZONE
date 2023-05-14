@@ -1,0 +1,25 @@
+<div class="p-5 container w-50 text-center ">
+    <h1>Add new product</h1>
+    <form (ngSubmit)="addProduct()" [formGroup]="addProductForm"  class="container p-5 bg-light">
+        <input formControlName="id" type="text" class="form-control mt-3 p-2" placeholder="id" name="pin" id="pid11">
+        <input formControlName="productName" type="text" class="form-control mt-3 p-2" placeholder="name" name="pin0"
+            id="pid10">
+        <input formControlName="brand" type="text" class="form-control mt-3 p-2" placeholder="brand"
+            name="pin1" id="pid9">
+        <input formControlName="Discription" type="text" class="form-control mt-3 p-2" placeholder="Description"
+            name="pin2" id="pid8">
+        <input formControlName="categoryId" type="text" class="form-control mt-3 p-2" placeholder="category Id" name="pin3"
+            id="pid7">
+        
+        <input formControlName="price" type="text" class="form-control mt-3 p-2" placeholder="price" name="pin5"
+            id="pid5">
+        <input formControlName="rating" type="text" class="form-control mt-3 p-2" placeholder="Rating" name="pin6"
+            id="pid4">
+        <input formControlName="warranty" type="text" class="form-control mt-3 p-2" placeholder="warranty" name="pin7"
+            id="pid3">
+        <input formControlName="productImg" type="text" class="form-control mt-3 p-2" placeholder="product Image" name="pin8"
+            id="pid2">
+        
+        <button class="btn btn-secondary p-2 mt-3" type="submit">Add</button>
+    </form>
+</div>

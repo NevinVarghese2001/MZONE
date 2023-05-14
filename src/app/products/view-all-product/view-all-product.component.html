@@ -1,0 +1,70 @@
+<div class="container-fluid " >
+    <div class="row mt-4">
+        <div class="col-2 text-center hov">
+           <a (click)="filter('')"  style="text-decoration: none; color: black;">
+            <img class="p-2"  src="https://i.postimg.cc/25YHMbYG/ipad-card-40-veteran-202210.jpg" style="max-height: 200px; max-width: 200px; "  alt="">
+            <h5>All Product</h5>
+           </a>
+        </div>
+        <div class="col-2 text-center hov">
+            <a (click)="filter('1')"  style="text-decoration: none; color: black;">
+             <img class="p-2" src="https://i.postimg.cc/K8zrCP3m/store-card-14-16-mac-nav-202301.png" style="max-height: 200px; max-width: 200px; "  alt="">
+             <h5>Mac</h5>
+            </a>
+         </div>
+         <div class="col-2 text-center hov">
+            <a (click)="filter('2')"  style="text-decoration: none; color: black;">
+             <img class="p-2" src="https://i.postimg.cc/hv0487KY/store-card-13-iphone-nav-202209-GEO-EMEA.png" style="max-height: 200px; max-width: 200px; " alt="">
+             <h5>Iphone</h5>
+            </a>
+         </div>
+         <div class="col-2 text-center hov">
+            <a (click)="filter('3')"  style="text-decoration: none; color: black;">
+             <img class="p-2" src="https://i.postimg.cc/QxkKSH6h/store-card-13-ipad-nav-202210.png" style="max-height: 200px; max-width: 200px; " alt="">
+             <h5>Ipad</h5>
+            </a>
+         </div>
+         <div class="col-2 text-center hov">
+            <a (click)="filter('4')"  style="text-decoration: none; color: black;">
+             <img class="p-2" src="https://i.postimg.cc/wjgLdht1/store-card-13-watch-nav-202303-GEO-IN.png" style="max-height: 200px; max-width: 200px; " alt="">
+             <h5>Iwatch</h5>
+            </a>
+         </div>
+         <div  class="col-2 text-center hov">
+            <a (click)="filter('5')"  style="text-decoration: none; color: black;">
+             <img class="p-3" src="https://i.postimg.cc/TPHtwkm7/store-card-13-airpods-nav-202209.png" style="max-height: 200px; max-width: 200px; " alt="">
+             <h5>Airpods</h5>
+            </a>
+         </div>
+    </div>
+</div>
+
+
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="hov col mb-5" *ngFor="let i of filterCategory  | filter : searchString :'productName' ">
+                <div class="card h-100 ">
+                    <!-- Product image-->
+                    <img class="card-img-top p-3" style="max-height: 260px;" src="{{i.productImg}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h6 class="fw-bolder">{{i.productName}}</h6>
+                            <!-- Product price-->
+                            <p>Price ₹{{i.price}}/-</p>
+                            <p>Rating {{i.rating}}</p>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" routerLink="view-product/{{i.id}}" >View Product</a></div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</section>
